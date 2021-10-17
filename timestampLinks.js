@@ -1,4 +1,5 @@
-
+    var iframe = document.body.querySelector('iframe[data-host="vimeo"]');
+    var vPlayer = new Vimeo.Player(iframe);
 
       var elements = document.getElementsByTagName("a");
       var timestampsLinks = [];
@@ -16,6 +17,6 @@
             var seconds = timestring[0]*60+(+timestring[1]); // converting
             console.log(timestring)
             console.log(seconds)
-            player.setCurrentTime(seconds);
+            vPlayer.setCurrentTime(seconds);
         }
       }
