@@ -4,7 +4,7 @@ var iframe = document.body.querySelector('iframe[data-host="vimeo"]');
       var elements = document.getElementsByTagName("a");
       var timestampsLinks = [];
       for (var i = 0; i < elements.length; i++) {
-        if (/[0-9][0-9][:][0-9][0-9]/.test(elements[i].innerHTML) ) {
+        if (/[0-5][0-9][:][0-5][0-9]/.test(elements[i].innerHTML) ) {
           timestampsLinks.push(elements[i]);
         }
       }
