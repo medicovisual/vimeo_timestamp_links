@@ -15,8 +15,6 @@
             
             var timestring = this.innerHTML.split(":");
             var seconds = timestring[0]*60+(+timestring[1]); // converting
-            console.log(timestring)
-            console.log(seconds)
             vPlayer.setCurrentTime(seconds);
         }
       }
