@@ -1,5 +1,4 @@
-var iframe = document.body.querySelector('iframe[data-host="vimeo"]');
-    var player = new Vimeo.Player(iframe);
+
 
       var elements = document.getElementsByTagName("a");
       var timestampsLinks = [];
